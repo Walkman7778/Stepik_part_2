@@ -1,0 +1,5 @@
+poet_data = ('Пушкин', 1799, 'Санкт-Петербург')
+poet_data1 = list(poet_data)
+poet_data1[2] = input()
+poet_data = tuple(poet_data1)
+print(poet_data)
