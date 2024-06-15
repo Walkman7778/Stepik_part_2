@@ -16,7 +16,7 @@
 #b = red only 2 books
 #c = red no one 
 
-n,m,k,x,y,z,t,a =int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input())
+n, m, k, x, y, z, t, a =int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input()), int(input())
 a1 = (n + k -z - t) + (n + m + - x - t) + (k + m - y - t)
 b = (x + z + t - n - m - k) + (x + y + t - n - m - k) + (y + z + t - n - m - k)
 c = a - a1 - b - t
