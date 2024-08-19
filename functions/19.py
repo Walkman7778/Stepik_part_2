@@ -4,7 +4,7 @@
 # Firstly I change first "." into ""
 # than I use 3 conditions : 1 - upper argument of lambda function must be equal with lower,
 # 2 - first sign in argument is not equal with '-' , 3 - number of points in argument must be lower than 1 
-# after replacing x =  x.replace('.','',1)
+# after replacing x =  x.replace('.','',1).
 def is_non_negative_num(x):
     x =  x.replace('.','',1)
     return bool(list(filter((lambda x: True if (x.count('.') < 1) and 
