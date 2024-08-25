@@ -4,7 +4,7 @@ from string import*
 password = input()
 result = all(
     [len(password) >= 7,  # length of password at least 7 symbols
-     any(map(lambda x:x in digits, password)),  # at least 1 of symbols is digit
+     any(map(lambda x: x in digits, password)),  # at least 1 of symbols is digit
      any(list(map(lambda x: x in ascii_lowercase, password))),  # at least 1 of symbols is lowercase
      any(map(lambda x: x in ascii_uppercase, password))]  # at least 1 of symbols is uppercase
 )
